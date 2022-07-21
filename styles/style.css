@@ -20,7 +20,36 @@
 body {
   height: 97vh;
   background: var(--color2);
+  background-image: linear-gradient(
+    var(--color1),
+    var(--color2),
+    var(--color4)
+  );
   font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  background: var(--color1);
+  color: white;
+  padding: 0.5rem;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #cadastro {
