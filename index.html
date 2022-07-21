@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <section id="cadastro">
+      <div class="form">
+        <form action="">
+          <div class="input-container">
+            <label for="username">Usuário</label> <br />
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Usuário"
+              required
+              autocomplete="username"
+            />
+          </div>
+          <div class="input-container">
+            <label for="password">Senha</label> <br />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Usuário"
+              required
+              autocomplete="new-password"
+            />
+          </div>
+          <div class="input-container">
+            <label for="email">E-mail</label> <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+              required
+              autocomplete="email"
+            />
+          </div>
+          <div class="input-container">
+            <label for="tel">Celular</label> <br />
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="(xx)xxxxx-xxxx"
+              required
+              autocomplete="tel"
+            />
+          </div>
+          <div class="buttons">
+            <input class="submit" type="submit" value="Cadastrar" />
+            <input class="reset" type="reset" value="Limpar Campos" />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
