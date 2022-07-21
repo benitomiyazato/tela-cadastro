@@ -9,6 +9,7 @@
   --color5: #03a64a;
   --background-cadastro: #d6f3f7;
   --color-placeholder: #024059a4;
+  --input-hover: #02393f;
 }
 
 * {
@@ -97,6 +98,19 @@ a:hover {
   min-width: 100%;
   max-width: 100%;
   font-size: 1.2em;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+
+.input-container input:hover {
+  border: 1px solid var(--input-hover);
+  transition-duration: 250ms;
+}
+.input-container input:focus {
+  outline: none;
+  border: 1px solid black;
+  transform: translate(-1px, -1px);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.479);
+  transition-duration: 200ms;
 }
 
 .input-container input::placeholder {
