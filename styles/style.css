@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-
 :root {
   --color1: #024059;
   --color2: #026873;
@@ -41,7 +40,7 @@ body {
 .form {
   transform: translate(100%);
   max-width: 50%;
-  padding: 2em;
+  padding: 1rem;
   background: var(--background-cadastro);
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
@@ -53,27 +52,30 @@ body {
 
 .input-container label {
   font-weight: bold;
+  font-size: 1.5em;
 }
 
 .input-container input {
   border-radius: 10px;
   border: 1px solid var(--color2);
   margin-top: 0.2rem;
-  padding: 0.8rem;
+  padding: 0.9rem;
   min-width: 100%;
   max-width: 100%;
+  font-size: 1.2em;
 }
 
 .input-container input::placeholder {
   color: var(--color-placeholder);
+  font-size: 1em;
 }
 
 .buttons input {
   padding: 0.5em 0.9em;
-  border-radius: 5px;
-  color: white;
+  border-radius: 8px;
+  color: rgb(238, 238, 238);
   font-weight: bold;
-  font-size: 0.97em;
+  font-size: 1em;
   margin-right: 1em;
 }
 
