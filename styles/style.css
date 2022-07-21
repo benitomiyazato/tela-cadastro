@@ -20,12 +20,7 @@
 
 body {
   height: 100vh;
-  background: var(--color2);
-  background-image: linear-gradient(
-    var(--color1),
-    var(--color2),
-    var(--color4)
-  );
+  background-image: linear-gradient(to bottom, var(--color1), var(--color4));
   font-family: "Open Sans", sans-serif;
 }
 
