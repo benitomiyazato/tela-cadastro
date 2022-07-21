@@ -19,7 +19,7 @@
 }
 
 body {
-  height: 98vh;
+  height: 100vh;
   background: var(--color2);
   background-image: linear-gradient(
     var(--color1),
@@ -36,7 +36,7 @@ footer {
   width: 100%;
   background: var(--color4);
   color: white;
-  padding: 0.1rem;
+  padding: 0.3rem;
   font-size: 1em;
   font-weight: bold;
 }
